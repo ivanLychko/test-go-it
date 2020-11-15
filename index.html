@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>test 1</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./basicLightbox/basicLightbox.min.css" />
+</head>
+<body>
+    <div class="task">
+        <p>Задача № 2</p>
+        <hr>
+        <div id="controls">
+            <input type="number" min="0" max="100" step="1" class="js-input" />
+            <button type="button" data-action="create">Создать</button>
+            <button type="button" data-action="destroy">Очистить</button>
+        </div>
+        <div id="boxes"></div>
+
+    </div>
+    <div class="task">
+        <p>Задача № 3</p>
+        <hr>
+        <form id="search-form">
+            <input
+                    type="text"
+                    name="query"
+                    autocomplete="off"
+                    maxlength="100"
+                    placeholder="Search images..."
+            />
+        </form>
+        <br>
+
+        <ul id="collect-images"></ul>
+    </div>
+
+    <script src="./basicLightbox/basicLightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

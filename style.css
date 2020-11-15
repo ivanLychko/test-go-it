@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+
+}
+.task {
+    width: calc(50% - 1px);
+    height: 100%;
+    display: inline-block;
+    float: left;
+    overflow-y: auto;
+    border-right: 1px solid black;
+}
+.task:nth-child(2) {
+    border: none;
+}
+.task:nth-child(2) ul, .task:nth-child(2) form {
+    margin: 10px;
+}
+.task p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.task #controls {
+    margin: 10px;
+}
